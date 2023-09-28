@@ -46,6 +46,7 @@ describe("Login Endpoint E2E Test", () => {
       expect(result).toEqual(expectedResult);
     });
   });
+  
   describe("GET - Get User Profile", () => {
     it("Should Successfully Return A Valid User", async () => {
       //ARRANGE
