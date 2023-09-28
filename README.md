@@ -1,6 +1,6 @@
 # Api Endpoint Testing
 
-This repository contains a suites of Jest api tests.
+This repository contains a suites of Jest api tests. Not every single test is written the same way, I wanted to show different ways to write these tests (for example, some tests may have try and catch block, and some tests won't have it).
 
 # Installation
 
