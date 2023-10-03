@@ -147,7 +147,8 @@ const config: Config.InitialOptions = {
 
   // The test environment that will be used for testing
   testEnvironment: "node",
-
+  testTimeout: 10000,
+  maxWorkers: 1,
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 

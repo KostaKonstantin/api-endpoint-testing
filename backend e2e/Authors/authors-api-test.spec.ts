@@ -36,12 +36,7 @@ describe("Authors Api E2E Test", () => {
         firstName: "Joe",
         lastName: "Doe",
       };
-      const expectedResult = {
-        id: 222,
-        idBook: 11,
-        firstName: "Joe",
-        lastName: "Doe",
-      };
+      const expectedResult = authorsData;
 
       // Act
       const response = await axios.post(
